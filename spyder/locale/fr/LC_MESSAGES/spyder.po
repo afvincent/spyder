@@ -487,7 +487,7 @@ msgid ""
 "overwritten. Do you want to                                                "
 "continue?"
 msgstr ""
-"La disposisiton de fenêtres<b>%s</b> sera réinitialisée. Souhaitez-vous "
+"La disposisiton de fenêtre<b>%s</b> sera réinitialisée. Souhaitez-vous "
 "continuer ?"
 
 #: spyder/app/mainwindow.py:1842
@@ -534,7 +534,7 @@ msgid ""
 "continue?"
 msgstr ""
 "Spyder va redémarrer et réinitialiser les paramètres par "
-"défaut<br><br>Souhaitez-vous néanmoins continuer?"
+"défaut. <br><br>Souhaitez-vous néanmoins continuer ?"
 
 #: spyder/app/mainwindow.py:2757 spyder/widgets/helperwidgets.py:250
 msgid "Spyder updates"
@@ -566,15 +566,15 @@ msgid ""
 "new version. <br><br>If you are not sure how to proceed to update Spyder "
 "please refer to our  <a href=\"%s\">Installation</a> instructions."
 msgstr ""
-"<b>Spyder %s est disponible!</b> <br><br>Utiliser le gestionnaire de paquets "
-"pour mettre à jour Spyder, consultez le <a href=\"%s\">site</a> pour "
-"télécharger le programme directement. <br><br>Si vous ne savez pas comment "
-"procéder pour mettre Spyder à jour, veuillez consulter notre  <a href=\"%s"
-"\">documentation</a>."
+"<b>Spyder %s est disponible !</b> <br><br>Utilisez votre gestionnaire de "
+"paquets pour mettre à jour Spyder ou consultez le <a href=\"%s\">site</a> "
+"pour télécharger le programme directement. <br><br>Si vous ne savez pas "
+"comment procéder pour mettre Spyder à jour, veuillez consulter notre "
+"<a href=\"%s\">documentation</a>."
 
 #: spyder/app/mainwindow.py:2803
 msgid "Spyder is up to date."
-msgstr "Spyder à jour"
+msgstr "Spyder est à jour."
 
 #: spyder/app/restart.py:133
 msgid ""
@@ -610,7 +610,7 @@ msgstr "Erreur de réinitialisation de Spyder"
 
 #: spyder/app/restart.py:141
 msgid "Spyder restart error"
-msgstr "Erreur de démarrage de Spyder"
+msgstr "Erreur de redémarrage de Spyder"
 
 #: spyder/app/restart.py:165
 msgid "Closing Spyder"
@@ -679,14 +679,13 @@ msgid ""
 "be useful to show you other important features."
 msgstr ""
 "C'est l'un des volets où vous pouvez exécuter le code que vous avez écrit "
-"sur l'éditeur. Pour ce faire, vous devez appuyer sur la touche <b>F5</b>. "
-"<br><br>Cette console est livrée avec plusieurs fonctionnalités utiles qui "
+"dans l'éditeur. Pour ce faire, vous devez appuyer sur la touche <b>F5</b>. "
+"<br><br>Cette console possède plusieurs fonctionnalités utiles qui "
 "améliorent considérablement votre flux de travail de programmation (comme la "
 "coloration syntaxique et les graphiques en ligne). Si vous voulez en savoir "
-"plus à ce sujet, s'il vous plaît suivez ce <a href=\"{0}\">lien</a>, S'il "
-"vous plaît cliquer sur le bouton ci-dessous pour exécuter un code simple "
-"dans cette console. Ce sera utile pour vous montrer d'autres fonctionnalités "
-"importantes."
+"plus à ce sujet, suivez ce <a href=\"{0}\">lien</a>. Cliquez sur le bouton "
+"bouton ci-dessous pour exécuter un code simple dans cette console. Ceci sera "
+"utile pour vous montrer d'autres fonctionnalités importantes."
 
 #: spyder/app/tour.py:167
 msgid "The Variable Explorer"
@@ -774,8 +773,8 @@ msgstr "Historique"
 msgid ""
 "This pane records all commands introduced in the Python and IPython consoles."
 msgstr ""
-"Ce volet enregistre toutes les commandes introduites dans les consoles "
-"Python et IPython."
+"Ce volet enregistre toutes les commandes entrées dans les consoles Python et "
+"IPython."
 
 #: spyder/app/tour.py:266
 msgid "<b>Spyder</b> is an interactive development environment based on bla"
@@ -792,7 +791,7 @@ msgstr "Spyder est un environnement de développement interactif basé sur ..."
 
 #: spyder/app/tour.py:276
 msgid "Introduction tour"
-msgstr "Visite d'introduction"
+msgstr "Visite introductive"
 
 #: spyder/app/tour.py:277
 msgid "New features in version 3.0"
@@ -804,7 +803,7 @@ msgstr "Exécuter du code"
 
 #: spyder/app/tour.py:846
 msgid "Go to step: "
-msgstr "Allez à l'étape: "
+msgstr "Allez à l'étape : "
 
 #: spyder/config/base.py:260
 msgid ""
@@ -820,7 +819,7 @@ msgstr "Intégrer la console IPython"
 
 #: spyder/config/ipython.py:25
 msgid "Manipulate Jupyter notebooks on the Editor"
-msgstr "Utiliser les Jupyter Notebooks sur l'éditeur"
+msgstr "Utiliser les Jupyter Notebooks dans l'éditeur"
 
 #: spyder/config/utils.py:24
 msgid "Python files"
@@ -900,11 +899,11 @@ msgstr "Fichiers Javascript"
 
 #: spyder/config/utils.py:43
 msgid "Json files"
-msgstr "Fichiers Json"
+msgstr "Fichiers JSON"
 
 #: spyder/config/utils.py:44
 msgid "IPython notebooks"
-msgstr "Documents IPython "
+msgstr "Blocs-notes IPython "
 
 #: spyder/config/utils.py:45
 msgid "Enaml files"
@@ -912,7 +911,7 @@ msgstr "Fichiers Enaml"
 
 #: spyder/config/utils.py:46
 msgid "Configuration files"
-msgstr "Configurations"
+msgstr "Fichiers de configuration"
 
 #: spyder/config/utils.py:51 spyder/widgets/explorer.py:712
 msgid "All files"
@@ -920,7 +919,7 @@ msgstr "Tous les fichiers"
 
 #: spyder/config/utils.py:122
 msgid "Supported text files"
-msgstr "Fichiers compatibles"
+msgstr "Fichiers texte compatibles"
 
 #: spyder/plugins/__init__.py:508 spyder/plugins/editor.py:97
 #: spyder/plugins/editor.py:545 spyder/plugins/editor.py:1772
@@ -940,7 +939,7 @@ msgstr "Préférences"
 
 #: spyder/plugins/configdialog.py:491
 msgid "Invalid directory path"
-msgstr "Chemin d'accès de répertoire incorrect"
+msgstr "Chemin d'accès au répertoire incorrect"
 
 #: spyder/plugins/configdialog.py:494 spyder/plugins/configdialog.py:509
 #: spyder/plugins/runconfig.py:185 spyder/plugins/runconfig.py:251
@@ -953,7 +952,7 @@ msgstr "Sélectionner un répertoire"
 
 #: spyder/plugins/configdialog.py:521
 msgid "Invalid file path"
-msgstr "Chemin d'accès de fichier incorrect"
+msgstr "Chemin d'accès au fichier incorrect"
 
 #: spyder/plugins/configdialog.py:524 spyder/plugins/configdialog.py:541
 msgid "Select file"
@@ -985,15 +984,15 @@ msgstr "Police d'écriture"
 
 #: spyder/plugins/configdialog.py:772
 msgid "Spyder needs to restart to change the following setting:"
-msgstr "Il faut redémarrer Spyder pour changer l'option suivante"
+msgstr "Il faut redémarrer Spyder pour changer l'option suivante :"
 
 #: spyder/plugins/configdialog.py:775
 msgid "Spyder needs to restart to change the following settings:"
-msgstr "Il faut redémarrer Spyder pour changer les options suivantes"
+msgstr "Il faut redémarrer Spyder pour changer les options suivantes :"
 
 #: spyder/plugins/configdialog.py:777
 msgid "Do you wish to restart now?"
-msgstr "Souhaitez-vous redémarrer Spyder?"
+msgstr "Souhaitez-vous redémarrer maintenant ?"
 
 #: spyder/plugins/configdialog.py:783
 msgid "Information"
@@ -1018,11 +1017,11 @@ msgid ""
 "(Requires a restart)"
 msgstr ""
 "Activer cette option afin que les fichiers ouverts<br>depuis l'extérieur "
-"soit affichés dans une instance unique de Spyder<br>(redémarrage requis)"
+"soient affichés dans une instance unique de Spyder<br>(redémarrage requis)"
 
 #: spyder/plugins/configdialog.py:815
 msgid "Prompt when exiting"
-msgstr "Demander à la sortie"
+msgstr "Demander avant de quitter"
 
 #: spyder/plugins/configdialog.py:816
 msgid "Pop up internal console when internal errors appear"
@@ -1048,7 +1047,7 @@ msgstr "Barres de titre orientées verticalement"
 
 #: spyder/plugins/configdialog.py:856
 msgid "Vertical tabs in panes"
-msgstr "Languettes verticales dans onglets"
+msgstr "Languettes des onglets verticales"
 
 #: spyder/plugins/configdialog.py:858
 msgid "Animated toolbars and panes"
@@ -1073,7 +1072,7 @@ msgstr "Sélectionner pour les écrans à haute résolution"
 
 #: spyder/plugins/configdialog.py:866
 msgid "Custom margin for panes:"
-msgstr "Marges personnalisées pour les onglets:"
+msgstr "Marges personnalisées pour les onglets :"
 
 #: spyder/plugins/configdialog.py:868
 msgid "pixels"
@@ -1131,7 +1130,7 @@ msgid ""
 "plugins.<br><br>You can also edit the color schemes provided by Spyder or "
 "create your own ones by using the options provided below.<br>"
 msgstr ""
-"Ici, vous pouvez sélectionner le theme de couleurs utilisé dans l'éditeur et "
+"Ici, vous pouvez sélectionner le thème de couleurs utilisé dans l'éditeur et "
 "tous les autres plugins Spyder. <br><br>Vous pouvez également modifier les "
 "couleurs fournies par Spyder ou créer les vôtres en utilisant les options "
 "fournies ci-dessous.<br>"
@@ -1155,7 +1154,7 @@ msgstr "Réinitialiser"
 
 #: spyder/plugins/configdialog.py:1035
 msgid "Scheme:"
-msgstr "Thème de coloration:"
+msgstr "Thème de coloration :"
 
 #: spyder/plugins/configdialog.py:1066
 msgid "Manage color schemes"
@@ -1163,7 +1162,7 @@ msgstr "Gérer les thèmes de coloration syntaxique"
 
 #: spyder/plugins/configdialog.py:1255
 msgid "Are you sure you want to delete this scheme?"
-msgstr "Souhaitez-vous supprimer ce thème?"
+msgstr "Souhaitez-vous supprimer ce thème ?"
 
 #: spyder/plugins/configdialog.py:1372
 msgid "Text"
@@ -1179,7 +1178,7 @@ msgstr "Fond"
 
 #: spyder/plugins/configdialog.py:1380
 msgid "Scheme name:"
-msgstr "Nom du thème:"
+msgstr "Nom du thème :"
 
 #: spyder/plugins/configdialog.py:1387
 msgid "Color scheme editor"
@@ -1229,7 +1228,7 @@ msgstr "Éditeur externe..."
 
 #: spyder/plugins/console.py:160
 msgid "Set external editor executable path"
-msgstr "Modifier le chemin d'accès de l'éditeur externe"
+msgstr "Modifier le chemin d'accès à l'éditeur externe"
 
 #: spyder/plugins/console.py:163 spyder/plugins/editor.py:138
 #: spyder/plugins/externalconsole.py:76 spyder/plugins/help.py:157
@@ -1251,7 +1250,7 @@ msgstr "Complétion de code automatique"
 #: spyder/plugins/console.py:174 spyder/plugins/editor.py:172
 #: spyder/plugins/externalconsole.py:119
 msgid "Enter key selects completion"
-msgstr "Entrée valide la complétion de code"
+msgstr "Appuyez sur Entrée pour valider la complétion de code"
 
 #: spyder/plugins/console.py:179
 msgid "Internal console settings"
@@ -1280,7 +1279,7 @@ msgstr "Éditeur externe"
 
 #: spyder/plugins/console.py:290
 msgid "External editor executable path:"
-msgstr "Chemin d'accès de l'exécutable :"
+msgstr "Chemin d'accès à l'exécutable :"
 
 #: spyder/plugins/editor.py:103
 msgid "Edit template for new modules"
@@ -1340,7 +1339,7 @@ msgstr "Exécuter la sélection"
 #: spyder/plugins/editor.py:162
 msgid "Maintain focus in the Editor after running cells or selections"
 msgstr ""
-"Garder le focus dans l'éditeur après l'exécution d'une cellule ou d'une "
+"Garder le focus sur l'éditeur après l'exécution d'une cellule ou d'une "
 "sélection"
 
 #: spyder/plugins/editor.py:165 spyder/plugins/externalconsole.py:252
@@ -1371,7 +1370,7 @@ msgid ""
 "computer: calltips, code completion and go-to-definition features won't be "
 "available."
 msgstr ""
-"<b>Avertissement :</b><br>Le module Python <i>rope</i> n'est pas installé "
+"<b>Avertissement :</b><br>le module Python <i>rope</i> n'est pas installé "
 "sur cet ordinateur : les fonctionnalités telles que la complétion de code ou "
 "le lien vers la définition d'un objet ne sont donc pas accessibles."
 
@@ -1482,10 +1481,11 @@ msgid ""
 "containing errors or warnings will be highlighted.</p><p><u>Note</u>: add "
 "<b>analysis:ignore</b> in a comment to ignore code analysis warnings.</p>"
 msgstr ""
-"<p>Si cette option est activée, le code source Python sera analysé avec des "
-"outils l'outil d'introspection de code pyflakes, et les lignes contenant des "
-"erreurs seront indiquées.</p><p><u>Note</u>: rajouter <b>analysis:ignore</b> "
-"dans un commentaire pour ignorer les avertissements d'analyse de code.</p>"
+"<p>Si cette option est activée, le code source Python sera analysé avec "
+"l'outil d'introspection de code pyflakes, et les lignes contenant des "
+"erreurs seront indiquées.</p><p><u>Note</u>: pour ignorer les "
+"avertissements d'analyse de code, ajoutez <b>analysis:ignore</b> en "
+"commentaire."
 
 #: spyder/plugins/editor.py:239
 msgid "Code analysis requires pyflakes %s+"
@@ -1503,8 +1503,8 @@ msgid ""
 msgstr ""
 "<p>Si cette option est activée, le style du code source Python sera analysé "
 "avec l'outil d'introspection de code pep8 et les lignes ne suivant pas les "
-"recommandations officielles seront indiquées.</p><p><u>Note</u>: rajouter "
-"<b>analysis:ignore</b> dans un commentaire pour ignorer les avertissements "
+"recommandations officielles seront indiquées.</p><p><u>Note</u>: ajouter "
+"<b>analysis:ignore</b> en commentaire pour ignorer les avertissements "
 "d'analyse de code.</p>"
 
 #: spyder/plugins/editor.py:250
@@ -1598,7 +1598,7 @@ msgstr "Dossier..."
 
 #: spyder/plugins/editor.py:654
 msgid "Fast symbol search in file"
-msgstr ""
+msgstr "Recherche rapide d'un symbole dans le fichier"
 
 #: spyder/plugins/editor.py:660
 msgid "&Revert"
@@ -1761,11 +1761,11 @@ msgstr "Exécuter de nouveau le dernier fichier"
 
 #: spyder/plugins/editor.py:813 spyder/widgets/sourcecode/codeeditor.py:2647
 msgid "Run &selection or current line"
-msgstr "Exécuter la &sélection ou la ligne courante"
+msgstr "Exécuter la &sélection ou la ligne actuelle"
 
 #: spyder/plugins/editor.py:816
 msgid "Run selection or current line"
-msgstr "Exécuter la sélection ou le bloc de lignes"
+msgstr "Exécuter la sélection ou la ligne actuelle"
 
 #: spyder/plugins/editor.py:824 spyder/widgets/sourcecode/codeeditor.py:2639
 msgid "Run cell"
@@ -1776,7 +1776,7 @@ msgid ""
 "Run current cell (Ctrl+Enter)\n"
 "[Use #%% to create cells]"
 msgstr ""
-"Exécuter la cellule courante \n"
+"Exécuter la cellule actuelle \n"
 "[Utiliser #%% pour délimiter les cellules]"
 
 #: spyder/plugins/editor.py:833 spyder/widgets/sourcecode/codeeditor.py:2643
@@ -1786,8 +1786,8 @@ msgstr "Exécuter la cellule et avancer"
 #: spyder/plugins/editor.py:836
 msgid "Run current cell and go to the next one (Shift+Enter)"
 msgstr ""
-"Exécuter la cellule en cours d'édition et aller à la suivante\n"
-"(voir la documentation de l'Editeur, pour plus de détails sur les cellules)"
+"Exécuter la cellule actuelle et aller à la suivante (Shift+Enter).\n"
+"Voir la documentation de l'éditeur pour plus de détails sur les cellules."
 
 #: spyder/plugins/editor.py:843
 msgid "Show todo list"
@@ -1896,19 +1896,19 @@ msgstr "Désindenter la sélection ou la ligne en cours d'édition"
 
 #: spyder/plugins/editor.py:929
 msgid "Toggle Uppercase"
-msgstr "Convertir en majuscule"
+msgstr "Convertir en majuscules"
 
 #: spyder/plugins/editor.py:930
 msgid "Change to uppercase current line or selection"
-msgstr "Convertir en majuscule la sélection ou le mot en cours d'édition"
+msgstr "Convertir en majuscules la sélection ou la ligne en cours d'édition"
 
 #: spyder/plugins/editor.py:936
 msgid "Toggle Lowercase"
-msgstr "Convertir en minuscule"
+msgstr "Convertir en minuscules"
 
 #: spyder/plugins/editor.py:937
 msgid "Change to lowercase current line or selection"
-msgstr "Convertir en minuscule la sélection ou le mot en cours d'édition"
+msgstr "Convertir en minuscules la sélection ou la ligne en cours d'édition"
 
 #: spyder/plugins/editor.py:944
 msgid "Carriage return and line feed (Windows)"
@@ -1952,7 +1952,7 @@ msgid ""
 "directory"
 msgstr ""
 "Choisir le répertoire du script comme répertoire de travail de la console "
-"courante (et de l'explorateur de fichier)"
+"actuelle (et de l'explorateur de fichier)"
 
 #: spyder/plugins/editor.py:983
 msgid "Maximum number of recent files..."
@@ -2054,7 +2054,7 @@ msgstr ""
 #: spyder/widgets/variableexplorer/arrayeditor.py:541
 #: spyder/widgets/variableexplorer/dataframeeditor.py:696
 msgid "Background color"
-msgstr "Couleur de fond"
+msgstr "Couleur du fond"
 
 #: spyder/plugins/externalconsole.py:103
 msgid ""
@@ -2118,7 +2118,7 @@ msgstr "Sélection de la bibliothèque d'interfaçage Qt"
 
 #: spyder/plugins/externalconsole.py:187
 msgid "Library:"
-msgstr "Module:"
+msgstr "Module :"
 
 #: spyder/plugins/externalconsole.py:189
 msgid ""
@@ -2138,9 +2138,9 @@ msgid ""
 "number of backends in our Python consoles. If you prefer to work with a "
 "different one, please use an IPython console."
 msgstr ""
-"Décidez quel backend utiliser pour afficher les graphiques. Si vous n'êtes "
-"pas sûr, sélectionnez le backend <b>Automatique</b>. <br><b>Remarque:</b> "
-"Nous soutenons un nombre très limité de backends dans nos consoles Python. "
+"Choix du backend à utiliser pour afficher les graphiques. Si vous n'êtes "
+"pas sûr, sélectionnez le backend <b>Automatique</b>. <br><b>Remarque :</b> "
+"nous soutenons un nombre très limité de backends dans nos consoles Python. "
 "Si vous préférez travailler avec un autre, utilisez une console IPython."
 
 #: spyder/plugins/externalconsole.py:208
@@ -2174,7 +2174,7 @@ msgstr ""
 
 #: spyder/plugins/externalconsole.py:231
 msgid "ETS_TOOLKIT:"
-msgstr "ETS_TOOLKIT:"
+msgstr "ETS_TOOLKIT :"
 
 #: spyder/plugins/externalconsole.py:255
 msgid "External modules"
@@ -2211,11 +2211,11 @@ msgstr "Ouvrir une console &Python"
 
 #: spyder/plugins/externalconsole.py:751
 msgid "Open &command prompt"
-msgstr "Ouvrir un invite de &commandes"
+msgstr "Ouvrir une invite de &commandes"
 
 #: spyder/plugins/externalconsole.py:752
 msgid "Open a Windows command prompt"
-msgstr "Ouvrir un invite de commandes Windows"
+msgstr "Ouvrir une invite de commandes Windows"
 
 #: spyder/plugins/externalconsole.py:754
 msgid "Open a &terminal"
@@ -2227,7 +2227,7 @@ msgstr "Ouvrir un terminal de commandes dans Spyder"
 
 #: spyder/plugins/findinfiles.py:127 spyder/widgets/findinfiles.py:686
 msgid "Find in files"
-msgstr "Recherche dans des fichiers"
+msgstr "Rechercher dans des fichiers"
 
 #: spyder/plugins/findinfiles.py:148
 msgid "&Find in files"
@@ -2342,8 +2342,8 @@ msgid ""
 "writing a left parenthesis next to an object. You can activate this behavior "
 "in %s."
 msgstr ""
-"Pour obtenir de l'aide ici, sélectionner (ou placer le curseur sur) un objet "
-"dans l'éditeur ou la console, puis appuyer sur %s.%sL'aide apparaît "
+"Pour obtenir de l'aide, sélectionnez (ou placez le curseur sur) un objet "
+"dans l'éditeur ou la console, puis appuyez sur %s.%sL'aide apparaît "
 "automatiquement après la saisie d'une parenthèse gauche après un objet si "
 "l'option correspondante est activée dans %s."
 
@@ -2416,7 +2416,7 @@ msgstr "Historique..."
 
 #: spyder/plugins/history.py:155
 msgid "Set history maximum entries"
-msgstr "Modifier le nombre d'entrées maximum de l'historique"
+msgstr "Modifier le nombre maximum d'entrées de l'historique"
 
 #: spyder/plugins/history.py:260
 msgid "History"
@@ -2448,7 +2448,7 @@ msgstr "Impossible d'ouvrir le tunnel '%s'"
 
 #: spyder/plugins/ipythonconsole.py:141
 msgid "Could not connect to remote host"
-msgstr "Impossible d'établir la connection au serveur distant"
+msgstr "Impossible d'établir la connexion au serveur distant"
 
 #: spyder/plugins/ipythonconsole.py:158 spyder/plugins/ipythonconsole.py:765
 msgid "Connect to an existing kernel"
@@ -2463,8 +2463,8 @@ msgid ""
 msgstr ""
 "Entrez les informations de connexion du noyau auquel vous voulez vous "
 "connecter. Pour cela vous pouvez soit sélectionner son fichier de connexion "
-"JSON en utilisant le bouton <tt>Parcourir</tt>, ou écrivez directement son "
-"identifiant si c'est un noyau local (Exemple : <tt>kernel-3764.json</tt> ou "
+"JSON en utilisant le bouton <tt>Parcourir</tt>, soit écrire directement son "
+"identifiant si c'est un noyau local (exemple : <tt>kernel-3764.json</tt> ou "
 "juste <tt>3764</tt>)."
 
 #: spyder/plugins/ipythonconsole.py:171
@@ -2528,12 +2528,14 @@ msgid ""
 "This option lets you hide the message shown at\n"
 "the top of the console when it's opened."
 msgstr ""
-"Cette option permet de masquer la message d'accueil\n"
+"Cette option permet de masquer le message d'accueil\n"
 "qui s'affiche à l'ouverture de la console."
 
 #: spyder/plugins/ipythonconsole.py:283
 msgid "Use a pager to display additional text inside the console"
-msgstr "Utiliser un pager pour afficher l'aide"
+msgstr ""
+"Utilisez un visionneur en mode terminal (pager) pour afficher "
+"l'aide supplémentaire"
 
 #: spyder/plugins/ipythonconsole.py:285
 msgid ""
@@ -2542,7 +2544,7 @@ msgid ""
 "Note: Use the Q key to get out of the pager."
 msgstr ""
 "Le pager permet d'éviter de remplir la console de texte d'aide.\n"
-"Remarque : utiliser la touche Q pour quitter le pager."
+"Remarque : utilisez la touche Q pour quitter le pager."
 
 #: spyder/plugins/ipythonconsole.py:290
 msgid "Ask for confirmation before closing"
@@ -2554,7 +2556,7 @@ msgstr "Type de complétion de code"
 
 #: spyder/plugins/ipythonconsole.py:301
 msgid "Decide what type of completion to use"
-msgstr "Sélectionner le type de completion de code a utiliser"
+msgstr "Sélectionner le type de complétion de code à utiliser"
 
 #: spyder/plugins/ipythonconsole.py:303
 msgid "Graphical"
@@ -2566,7 +2568,7 @@ msgstr "Simple"
 
 #: spyder/plugins/ipythonconsole.py:304
 msgid "Completion:"
-msgstr "Completion de code:"
+msgstr "Complétion de code :"
 
 #: spyder/plugins/ipythonconsole.py:313
 msgid "Light background"
